@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { SemiDonutComponent } from './semidonut.component';
+import { SemiDonutComponent } from './semi-donut.component';
 
 describe('SemidonutComponent', () => {
   let component: SemiDonutComponent;

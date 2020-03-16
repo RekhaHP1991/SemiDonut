@@ -5,8 +5,8 @@ import { RestApiService } from './semi-donut-api-service';
 
 @Component({
   selector: 'app-semi-donut',
-  templateUrl: './semidonut.component.html',
-  styleUrls: ['./semidonut.component.css']
+  templateUrl: './semi-donut.component.html',
+  styleUrls: ['./semi-donut.component.css']
 })
 export class SemiDonutComponent implements OnInit {
   errorMessage: any;
