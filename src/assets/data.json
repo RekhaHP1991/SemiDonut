@@ -1,0 +1,18 @@
+{
+    "data": 
+        {
+            "header": "Power Generations",
+            "title": "11,25%",
+            "chartData": [
+                {
+                    "name": "Power1",
+                    "value": 30
+                }
+            ],
+            "ABBVoice": "Site generator capacity",
+            "ABBVoice1": "Generated Power",
+            "ABBVoice2": "80,0kwp",
+            "ABBVoice3": "9,0kw"
+        }
+   
+}
