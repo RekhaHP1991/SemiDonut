@@ -1,0 +1,47 @@
+.card {
+    width: 300px;
+    background-color:#4C85FF;
+    border-color: #4C85FF;
+    border-style: solid;
+  }
+ 
+  .card-header{
+    color: white;
+  }
+
+.right-dots{
+    position: absolute;
+    right: 14px;
+}
+ 
+.left-drag{
+    position: absolute;
+    left: 5px;
+}
+
+.high-chart {
+    margin-top:5px
+}
+
+.left-text-small {
+    float: unset;
+    color: white;
+    font-size: 14px;
+}
+
+.right-text-small {
+    float: right;
+    color: white;
+    font-size: 14px;
+}
+.left-text {
+    float: unset;
+    color: white;
+    font-size: 26px;
+}
+
+.right-text {
+    float: right;
+    color: white;
+    font-size: 26px;
+}

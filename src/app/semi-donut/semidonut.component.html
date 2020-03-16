@@ -1,0 +1,22 @@
+<p>semidonut works!</p>
+<div *ngIf="this.semiDonut.data">
+    <mat-card class="card">
+        <mat-card-header class="card-header">
+            <mat-card-title class="high-chart">{{this.semiDonut.data.header}}</mat-card-title>
+            <mat-icon class="left-drag">drag_indicator</mat-icon>
+            <mat-icon class="right-dots">more_vert</mat-icon>
+        </mat-card-header>                                                                 
+        <mat-card-content>
+            <highcharts-chart [Highcharts]="highcharts" [options]="chartOptions" class="high-chart">
+            </highcharts-chart>
+            <div style="flex-direction: row;">
+                <span class="left-text-small"> {{this.semiDonut.data.ABBVoice}}</span>
+                <span class="right-text-small">{{this.semiDonut.data.ABBVoice1}}</span>
+            </div>
+            <div style="flex-direction: row;">
+                <span class="left-text"> {{this.semiDonut.data.ABBVoice2}}</span>
+                <span class="right-text"> {{this.semiDonut.data.ABBVoice3}}</span>
+            </div>
+        </mat-card-content>
+    </mat-card> 
+    </div> 

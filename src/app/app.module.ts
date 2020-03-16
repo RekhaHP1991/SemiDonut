@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HighchartsChartModule } from 'highcharts-angular';
-import { SemiDonutComponent } from './SemiDonut/semi-donut.component';
+import { SemiDonutComponent } from './semi-donut/semidonut.component';
 import { MatCardModule } from '@angular/material/card'
 import { MatIconModule } from '@angular/material/icon'
 import { HttpClientModule } from '@angular/common/http';
@@ -13,7 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    SemiDonutComponent
+    SemiDonutComponent,
   ],
   imports: [
     BrowserModule,
